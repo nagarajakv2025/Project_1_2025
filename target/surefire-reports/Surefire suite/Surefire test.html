@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 27 11:30:20 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>282 seconds (282623 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCaseRepo.TC_001_Test.LE_001()'><b>LE_001</b><br>Test class: testCaseRepo.TC_001_Test<br/>
+<a href="#Output-934640468" onClick='toggleBox("Output-934640468", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-934640468" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-934640468">
+LE_001->On Test start<br/>
+LE_001->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>testCaseRepo.TC_001_Test@69b2283a</td></tr>
+<tr>
+<td title='testCaseRepo.TC_005_Test.CON_002()'><b>CON_002</b><br>Test class: testCaseRepo.TC_005_Test<br/>
+<a href="#Output-2027549979" onClick='toggleBox("Output-2027549979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2027549979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2027549979">
+CON_002->On Test start<br/>
+CON_002->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>testCaseRepo.TC_005_Test@659a969b</td></tr>
+<tr>
+<td title='testCaseRepo.TC_002_Test.demo()'><b>demo</b><br>Test class: testCaseRepo.TC_002_Test<br/>
+<a href="#Output-954928973" onClick='toggleBox("Output-954928973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-954928973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-954928973">
+demo->On Test start<br/>
+demo->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCaseRepo.TC_002_Test@22a637e7</td></tr>
+<tr>
+<td title='sample.TestNGPractice.modifyUser()'><b>modifyUser</b><br>Test class: sample.TestNGPractice<br/>
+<a href="#Output-2104973502" onClick='toggleBox("Output-2104973502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2104973502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2104973502">
+modifyUser->On Test start<br/>
+modifyUser->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sample.TestNGPractice@5e316c74</td></tr>
+<tr>
+<td title='sample.TestNGPractice.deleteUser()'><b>deleteUser</b><br>Test class: sample.TestNGPractice<br/>
+<a href="#Output-735937428" onClick='toggleBox("Output-735937428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-735937428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-735937428">
+deleteUser->On Test start<br/>
+deleteUser->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sample.TestNGPractice@5e316c74</td></tr>
+<tr>
+<td title='testCaseRepo.TC_003_Test.LE_003()'><b>LE_003</b><br>Test class: testCaseRepo.TC_003_Test<br/>
+<a href="#Output-276561074" onClick='toggleBox("Output-276561074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-276561074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-276561074">
+LE_003->On Test start<br/>
+LE_003->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>testCaseRepo.TC_003_Test@6fe7aac8</td></tr>
+<tr>
+<td title='sample.TestNGPractice.createUser()'><b>createUser</b><br>Test class: sample.TestNGPractice<br/>
+<a href="#Output-1345900725" onClick='toggleBox("Output-1345900725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1345900725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1345900725">
+createUser->On Test start<br/>
+createUser->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sample.TestNGPractice@5e316c74</td></tr>
+<tr>
+<td title='testCaseRepo.TC_002_Test.LE_002()'><b>LE_002</b><br>Test class: testCaseRepo.TC_002_Test<br/>
+<a href="#Output-1650299186" onClick='toggleBox("Output-1650299186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1650299186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1650299186">
+LE_002->On Test start<br/>
+LE_002->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>testCaseRepo.TC_002_Test@22a637e7</td></tr>
+<tr>
+<td title='sample.TestNGPractice.createUser()'><b>createUser</b><br>Test class: sample.TestNGPractice<br/>
+<a href="#Output-2133655103" onClick='toggleBox("Output-2133655103", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133655103" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133655103">
+createUser->On Test start<br/>
+createUser->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sample.TestNGPractice@5e316c74</td></tr>
+<tr>
+<td title='testCaseRepo.TC_006_Test.CON_003()'><b>CON_003</b><br>Test class: testCaseRepo.TC_006_Test<br/>
+<a href="#Output-1279124366" onClick='toggleBox("Output-1279124366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279124366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279124366">
+CON_003->On Test start<br/>
+CON_003->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>testCaseRepo.TC_006_Test@76908cc0</td></tr>
+<tr>
+<td title='testCaseRepo.TC_004_Test.CON_001()'><b>CON_001</b><br>Test class: testCaseRepo.TC_004_Test<br/>
+<a href="#Output-1969925628" onClick='toggleBox("Output-1969925628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1969925628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1969925628">
+CON_001->On Test start<br/>
+CON_001->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>testCaseRepo.TC_004_Test@1d119efb</td></tr>
+<tr>
+<td title='sample.TestNGPractice.createUser()'><b>createUser</b><br>Test class: sample.TestNGPractice<br/>
+<a href="#Output-442199874" onClick='toggleBox("Output-442199874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-442199874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-442199874">
+createUser->On Test start<br/>
+createUser->On Test success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sample.TestNGPractice@5e316c74</td></tr>
+</table><p>
+</body>
+</html>
