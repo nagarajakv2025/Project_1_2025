@@ -12,6 +12,7 @@ public class GitPractice {
 
 			{
 				System.out.println("pushed from git branch");
+				System.out.println("Git Practice");
 			}
 
 	}
