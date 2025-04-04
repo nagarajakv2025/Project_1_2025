@@ -9,7 +9,7 @@ import ObjectRepo.HomePage;
 import genericUtility.BaseClass;
 
 @Listeners(genericUtility.ListenersImplementation.class)
-public class TC_006_Test extends BaseClass{
+public class TC_006 extends BaseClass{
 	@Test(groups= {"Smoke", "Regression"})
 	public void CON_003() throws Exception
 	{	

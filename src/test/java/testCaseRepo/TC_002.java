@@ -8,7 +8,7 @@ import ObjectRepo.LeadsPage;
 import genericUtility.BaseClass;
 
 @Listeners(genericUtility.ListenersImplementation.class)
-public class TC_002_Test extends BaseClass {	
+public class TC_002 extends BaseClass {	
 	@Test(groups= {"Sanity", "Smoke"})
 		public void LE_002() throws Exception
 		{

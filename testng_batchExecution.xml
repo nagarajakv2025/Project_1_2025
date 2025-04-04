@@ -6,9 +6,9 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCaseRepo.TC_003_Test"/>
-      <class name="testCaseRepo.TC_002_Test"/>
-      <class name="testCaseRepo.TC_001_Test"/>
+      <class name="testCaseRepo.TC_003"/>
+      <class name="testCaseRepo.TC_002"/>
+      <class name="testCaseRepo.TC_001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

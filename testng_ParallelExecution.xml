@@ -3,8 +3,8 @@
 <suite thread-count="2" parallel="tests" name="Suite">
   <test thread-count="2" parallel="tests" name="Test">
     <classes>
-      <class name="testCaseRepo.TC_003_Test"/>
-      <class name="testCaseRepo.TC_005_Test"/>
+      <class name="testCaseRepo.TC_003"/>
+      <class name="testCaseRepo.TC_005"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

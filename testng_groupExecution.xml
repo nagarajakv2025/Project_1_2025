@@ -8,12 +8,12 @@
 </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCaseRepo.TC_002"/>
-      <class name="testCaseRepo.TC_003"/>
-      <class name="testCaseRepo.TC_001"/>
-      <class name="testCaseRepo.TC_005"/>
-      <class name="testCaseRepo.TC_004"/>
-      <class name="testCaseRepo.TC_006"/>
+      <class name="testCaseRepo.TC"/>
+      <class name="testCaseRepo.TC"/>
+      <class name="testCaseRepo.TC"/>
+      <class name="testCaseRepo.TC"/>
+      <class name="testCaseRepo.TC"/>
+      <class name="testCaseRepo.TC"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
